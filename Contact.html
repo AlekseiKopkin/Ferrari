@@ -1,0 +1,322 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+<head> 
+ <link rel="shortcut icon" href="images\logo.PNG" type="image/x-icon">
+<meta http-equiv=Content-Type content="text/html; charset=windows-1251"> 
+<title>КОНТАКТЫ</title> 
+<link href="style.css" rel="stylesheet" type="text/css" />
+  <style type="text/css">
+   body {
+    font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    background: ##FFFFE0; /* Цвет фона */
+   }
+   h2 {
+    font-size: 2.1em; /* Размер шрифта */
+    color: #800040; /* Цвет текста */
+    margin-top: 0; /* Отступ сверху */
+   }
+   #container {
+    width: 1300px; /* Ширина слоя */
+	height: 650px ;
+    margin: 0 auto; /* Выравнивание по центру */
+    background: #B22222 /* Цвет фона левой колонки */
+   }
+   #header {
+    font-size: 2.2em; /* Размер текста */
+    text-align: center; /* Выравнивание по центру */
+    padding: 5px; /* Отступы вокруг текста */
+    background: #363636; /* Цвет фона шапки */
+    color: #ffe; /* Цвет текста */
+   }
+   #sidebar {
+    margin-top: 10px; 
+    width: 110px; /* Ширина слоя */
+    padding: 0 10px; /* Отступы вокруг текста */
+    float: left; /* Обтекание по правому краю */
+   }
+   #content {
+    margin-left: 130px; /* Отступ слева */
+	height: 650px ;
+    padding: 10px; /* Поля вокруг текста */
+    background:#FFFFE0; /* Цвет фона правой колонки */
+   }
+   #stickey_footer { 
+background: none repeat scroll 0 0 #1D1D1D;
+border: 1px solid rgba(0, 0, 0, 0.3);
+bottom: 0;
+font-family: Arial, Helvetica, sans-serif;
+height: 40px;
+left: 50%;
+margin: 0 auto 0 -490px;
+padding: 0 10px;
+position: fixed;
+text-shadow: 1px 1px 1px #000000;
+width: 960px;
+}
+
+/* hover effect */
+#stickey_footer:hover {
+background: none repeat scroll 0 0 #2b2a2a;
+}
+
+/* shadow for the footer*/
+#stickey_footer {
+-moz-box-shadow:0px 0px 11px #191919;
+-webkit-box-shadow:0px 0px 11px #191919;
+box-shadow:0px 0px 11px #191919;
+}
+
+#footer_menu {
+margin: 0;
+padding: 0;
+width:auto;
+}
+
+#footer_menu li {
+list-style: none;
+float: left;
+font-size:12px;
+padding: 12px 14px 14px 14px;
+border-right:1px solid rgba(0, 0, 0, 0.4);
+background: rgba(0, 0, 0, 0.1);
+}
+
+#footer_menu .imgmenu {
+padding:5px 8px 3px 14px;
+float:left;
+background:url("images/home.png") 13px 5px no-repeat;
+width:36px;
+height:30px;
+border:none;
+border-right:1px solid rgba(0, 0, 0, 0.4);
+cursor:pointer;
+}
+
+#footer_menu li:hover {
+background:#202020; /* Fallback color for old browsers */
+background: rgba(0, 0, 0, 0.3);
+}
+
+#footer_menu .imgmenu:hover {
+background:url("images/home_hover.png") 13px 5px no-repeat;
+}
+
+#footer_menu li a {
+display: block;
+color: #cccccc;
+text-decoration: none;
+}
+
+#footer_menu li a:hover {
+color: #ffffff;
+}
+
+#footer_menu li span {
+display:none;
+}
+
+#stickey_footer #social_icons {
+float:right; /* social icons positions */
+width:auto;
+margin:5px 15px 0px;
+padding:0px;
+overflow:hidden;
+}
+
+#stickey_footer #social_icons li {
+margin-right:12px; /* 12px is the space between each one of them */
+float:left;
+width:24px;
+padding:0px;
+height:32px;
+list-style:none;
+_margin-right:0px; /*for IE6 */
+}
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+   .rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
+   
+   #calendar2 {
+  width: 20%;
+  font: monospace;
+  line-height: 1.2em;
+  font-size: 15px;
+  text-align: center;
+}
+#calendar2 thead tr:last-child {
+  font-size: small;
+  color: rgb(85, 85, 85);
+}
+#calendar2 thead tr:nth-child(1) td:nth-child(2) {
+  color: rgb(50, 50, 50);
+}
+#calendar2 thead tr:nth-child(1) td:nth-child(1):hover, #calendar2 thead tr:nth-child(1) td:nth-child(3):hover {
+  cursor: pointer;
+}
+#calendar2 tbody td {
+  color: rgb(44, 86, 122);
+}
+#calendar2 tbody td:nth-child(n+6), #calendar2 .holiday {
+  color: rgb(231, 140, 92);
+}
+#calendar2 tbody td.today {
+  background: rgb(220, 0, 0);
+  color: #fff;
+}
+#feedback-form {
+  max-width: 4000px;
+  padding: 2%;
+  border-radius: 3px;
+  background: #f1f1f1;
+}
+#feedback-form [required] {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 2px 0 2% 0;
+  padding: 2%;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 3px;
+  box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent;
+}
+#feedback-form [required]:hover {
+  border-color: #7eb4ea;
+  box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent;
+}
+#feedback-form [required]:focus {
+  outline: none;
+  border-color: #7eb4ea;
+  box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 4px rgba(35,146,243,.5);
+  transition: .2s linear;
+}
+#feedback-form [type="submit"] {
+  padding: 2%;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.2) inset;
+  background: #669acc;
+  color: #fff;
+}
+#feedback-form [type="submit"]:hover {
+  background: #5c90c2;
+}
+#feedback-form [type="submit"]:focus {
+  box-shadow: 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+}
+</style>
+
+  
+ </head>
+ <body>
+  <div id="container">
+  <marquee behavior="alternate" scrollamount="10"  ID="HEADER"  style="color: #D9470D; font-size: 40px; font-weight: bolder; center: 100%; text-shadow: #000000 0px 1px 1px;">ДОРОГА К FERRARI. ДОРОГА К МЕЧТЕ.</marquee>
+    <div id="sidebar">
+    <img src="images\ГАЛ9.jpg" alt="логотип" width="220%" height="90%" class="rightimg">
+   </div>
+   <div id="content" >
+    <h2 align="center" >КАК С НАМИ СВЯЗАТЬСЯ? </h2>
+	<table id="calendar2">
+  <thead>
+    <tr><td>‹<td colspan="5"><td>›
+    <tr><td>Пн<td>Вт<td>Ср<td>Чт<td>Пт<td>Сб<td>Вс
+  <tbody> 
+</table>
+<!-- атрибут required говорит, что заполнение поля обязательно -->
+<form method="POST" id="feedback-form">
+Как к Вам обращаться:
+<input type="text" name="nameFF" required placeholder="фамилия имя отчество" x-autocompletetype="name">
+Email для связи:
+<input type="email" name="contactFF" required placeholder="адрес электронной почты" x-autocompletetype="email">
+Ваше сообщение:
+<textarea name="messageFF" required rows="5"></textarea>
+<input type="submit" value="отправить">
+</form>
+
+<script>
+document.getElementById('feedback-form').addEventListener('submit', function(evt){
+  var http = new XMLHttpRequest(), f = this;
+  evt.preventDefault();
+  http.open("POST", "contacts.php", true);
+  http.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+  http.send("nameFF=" + f.nameFF.value + "&contactFF=" + f.contactFF.value + "&messageFF=" + f.messageFF.value);
+  http.onreadystatechange = function() {
+    if (http.readyState == 4 && http.status == 200) {
+      alert(http.responseText + ', Ваше сообщение получено.\nНаши специалисты ответят Вам в течении 2-х дней.\nБлагодарим за интерес к нашей фирме!');    
+      f.messageFF.removeAttribute('value'); // очистить поле сообщения (две строки)
+      f.messageFF.value='';
+    }
+  }
+  http.onerror = function() {
+    alert('Извините, данные не были переданы');
+  }
+}, false);
+</script>
+<script>
+function Calendar2(id, year, month) {
+var Dlast = new Date(year,month+1,0).getDate(),
+    D = new Date(year,month,Dlast),
+    DNlast = new Date(D.getFullYear(),D.getMonth(),Dlast).getDay(),
+    DNfirst = new Date(D.getFullYear(),D.getMonth(),1).getDay(),
+    calendar = '<tr>',
+    month=["Январь","Февраль","Март","Апрель","Май","Июнь","Июль","Август","Сентябрь","Октябрь","Ноябрь","Декабрь"];
+if (DNfirst != 0) {
+  for(var  i = 1; i < DNfirst; i++) calendar += '<td>';
+}else{
+  for(var  i = 0; i < 6; i++) calendar += '<td>';
+}
+for(var  i = 1; i <= Dlast; i++) {
+  if (i == new Date().getDate() && D.getFullYear() == new Date().getFullYear() && D.getMonth() == new Date().getMonth()) {
+    calendar += '<td class="today">' + i;
+  }else{
+    calendar += '<td>' + i;
+  }
+  if (new Date(D.getFullYear(),D.getMonth(),i).getDay() == 0) {
+    calendar += '<tr>';
+  }
+}
+for(var  i = DNlast; i < 7; i++) calendar += '<td>&nbsp;';
+document.querySelector('#'+id+' tbody').innerHTML = calendar;
+document.querySelector('#'+id+' thead td:nth-child(2)').innerHTML = month[D.getMonth()] +' '+ D.getFullYear();
+document.querySelector('#'+id+' thead td:nth-child(2)').dataset.month = D.getMonth();
+document.querySelector('#'+id+' thead td:nth-child(2)').dataset.year = D.getFullYear();
+if (document.querySelectorAll('#'+id+' tbody tr').length < 6) {  // чтобы при перелистывании месяцев не "подпрыгивала" вся страница, добавляется ряд пустых клеток. Итог: всегда 6 строк для цифр
+    document.querySelector('#'+id+' tbody').innerHTML += '<tr><td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;';
+}
+}
+Calendar2("calendar2", new Date().getFullYear(), new Date().getMonth());
+// переключатель минус месяц
+document.querySelector('#calendar2 thead tr:nth-child(1) td:nth-child(1)').onclick = function() {
+  Calendar2("calendar2", document.querySelector('#calendar2 thead td:nth-child(2)').dataset.year, parseFloat(document.querySelector('#calendar2 thead td:nth-child(2)').dataset.month)-1);
+}
+// переключатель плюс месяц
+document.querySelector('#calendar2 thead tr:nth-child(1) td:nth-child(3)').onclick = function() {
+  Calendar2("calendar2", document.querySelector('#calendar2 thead td:nth-child(2)').dataset.year, parseFloat(document.querySelector('#calendar2 thead td:nth-child(2)').dataset.month)+1);
+}
+</script>
+   </div>
+    </div> 
+	<div id="stickey_footer">
+<!-- Begin Footer Menu -->
+<ul id="footer_menu">
+<li><a href="MENU.html"><img src='images\home.png' width="25" height="25" alt="twitter" /><span>Home</span></a></li>
+<li><a href="History.html">История </a>
+<li><a href="Auto.html">Автопарк</a>
+<li><a href="Photo.html">Галерея</a>
+<li><a href="Contact.html">Контакты</a>
+</ul>
+
+<ul id="social_icons">
+<!--Social Icons -->
+<li><a href="https://vk.com/id97686905" ><img src='images\vk.png' width="25" height="25" alt="vk" /></a></li>
+<li><a href="https://twitter.com" ><img src='images\twitter.png' width="25" height="25" alt="twitter" /></a></li>
+<li><a href="https://ru-ru.facebook.com" ><img src='images\facebook.png' width="25" height="25" alt="facebook" /></a></li>
+<li><a href="https://my.mail.ru/mail/aleksei_kopkin/" ><img src='images\mail.png' width="25" height="25" alt="e-mail" /></a></li>
+</ul>
+
+</div>
+ </body>
+</html>
